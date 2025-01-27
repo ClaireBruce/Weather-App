@@ -1,5 +1,5 @@
 body {
-    background-color: lightcyan;
+    background-color: rgb(249, 239, 255);
     font-family: Arial, Helvetica, sans-serif;
   
 }
@@ -9,12 +9,12 @@ body {
     max-width: 500px;
     margin: 45px auto;
     padding: 30px;
-    box-shadow: 0 30px 50px lightgrey;
+    box-shadow: 0 20px 20px lightgrey;
     border-radius: 20px;
 }
 
 a {
-    color: cyan;
+    color: rgb(96, 0, 151);
 }
 
 header {
@@ -22,8 +22,16 @@ header {
     margin: 0 auto;
 }
 
+h1 {
+    text-align: center;
+}
+
+.date-heading {
+    text-align: center;
+}
+
 .search-form-input {
-    background: lightcyan;
+    background: rgb(249, 239, 255);
     border: none;
     border-radius: 8px;
     font-size: 16px;
@@ -32,11 +40,25 @@ header {
 }
 
 .search-form-button {
-    background: cyan;
+    background: rgb(96, 0, 151);
     padding: 15px 20px;
     border: none;
     border-radius: 8px;
     color: white;
+}
+
+.weather-app-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-app-temperature {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+strong {
+    color: rgb(0, 156, 122);
 }
 
 footer {
