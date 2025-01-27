@@ -3,11 +3,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   
 }
+
 .weather-app {
     background: white;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 500px;
+    margin: 45px auto;
     padding: 30px;
     box-shadow: 0 30px 50px lightgrey;
-    border-radius: 1rem;
+    border-radius: 20px;
+}
+
+header {
+    padding: 0 0 30px 0;
+    margin: 0 auto;
+}
+
+.search-form-input {
+    background: lightcyan;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 15px 30px;
+    width: 400px;
+}
+
+.search-form-button {
+    background: cyan;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
 }
